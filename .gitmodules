@@ -1,0 +1,3 @@
+[submodule "collision_scene/galton_machine"]
+	path = collision_scene/galton_machine
+	url = ../galton_machine.git

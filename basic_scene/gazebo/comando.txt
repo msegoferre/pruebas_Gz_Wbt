@@ -1,0 +1,3 @@
+gnome-terminal -- bash -c "gz topic -t "/cmd_vel" -m gz.msgs.Twist -p "linear: {x: 0.5}, angular: {z: 0.0}"; exec bash" &
+gnome-terminal -- bash -c "gz topic -e -t "/world/Moving_robot/stats" | tee results_basic_scene_gz1; exec bash" &
+
