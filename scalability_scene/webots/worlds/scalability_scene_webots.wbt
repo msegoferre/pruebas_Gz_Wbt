@@ -1,0 +1,26 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "../protos/Pedestrian.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.1990531352994963 -0.00888292102128427 0.9799484389709338 3.229013288431465
+  position 11.204383291769275 0.4814842885848819 3.790288715103105
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 15 15
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+Pedestrian {
+}

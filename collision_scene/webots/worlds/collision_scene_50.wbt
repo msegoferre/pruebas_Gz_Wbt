@@ -1,0 +1,983 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.22586685938808945 -0.20071695335680365 -0.9532559291529864 4.671245079185366
+  position 0.6733427063905407 -14.92812395162914 10.002447494756256
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 15 15
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+Solid {
+  translation -0.6 0.39 5.75
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.79 0.39 5.32
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(2)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.01 0.39 5.75
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.04 0.39 5.42
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(5)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.32 0.39 5.75
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(6)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.38 0.39 5.52
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(3)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.0942122 0.118259 5.54
+  rotation 0 0 1 0.261799
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(9)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.14 0.39 5.45
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(10)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.59 0.39 5.54
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(11)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.18 0.39 5.56
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(12)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.52 0.39 5.51
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(13)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.47 0.39 5.75
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(14)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.09 0.39 5.9
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(15)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.53 0.39 5.51
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(16)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.92 0.39 5.92
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(17)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.92 0.39 5.32
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(18)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.25 0.39 5.75
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(19)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.38 0.39 5.77
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(29)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.18 0.39 5.59
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(30)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 2.22 0.39 5.63
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(31)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.93 0.39 5.59
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(32)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.55 0.39 5.59
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(33)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.61 0.39 5.11
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(34)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.91 0.39 5.59
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(35)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.34 0.39 5.59
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(36)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.88 0.39 5.59
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(37)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.4 0.39 5.59
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(38)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -2.14 0.39 5.8
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(39)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.03 0.39 5.59
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(40)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.29 0.39 5.37
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(41)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.11 0.39 5.59
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(42)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.31 0.39 4.85
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(43)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.29 0.39 5.15
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(44)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.37 0.39 5.02
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(45)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.24 0.39 5.27
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(46)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.26 0.39 5.59
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(47)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.52 0.39 4.94
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(48)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.8 0.39 5.59
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(49)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.69 0.39 5.59
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(50)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -1.69 0.39 5.71
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(51)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -2.11 0.39 5.59
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(52)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 1.24 0.39 5.75
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(20)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.38 0.39 5.23
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(21)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.74 0.39 5.48
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(22)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation -0.51 0.39 5.39
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(23)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.92 0.39 5.06
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(24)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.54 0.39 5.75
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(25)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.58 0.39 4.99
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(26)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.63 0.39 5.29
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(27)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+Solid {
+  translation 0.92 0.39 5.79
+  children [
+    DEF esfera Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.045
+      }
+    }
+  ]
+  name "solid(28)"
+  boundingObject USE esfera
+  physics Physics {
+  }
+}
+DEF maquina Solid {
+  children [
+    DEF cuerpo Shape {
+      appearance PBRAppearance {
+        metalness 0.5
+      }
+      geometry Mesh {
+        url [
+          "../galtor.stl"
+        ]
+      }
+      isPickable FALSE
+    }
+  ]
+  boundingObject USE cuerpo
+  physics Physics {
+    mass 150
+    centerOfMass [
+      0 0 0
+    ]
+  }
+  locked TRUE
+}
+DEF Transparente Solid {
+  translation 0 -0.17 0.07
+  children [
+    DEF trans Shape {
+      appearance PBRAppearance {
+        transparency 1
+      }
+      geometry Box {
+        size 5.5 0.1 3
+      }
+    }
+  ]
+  name "solid(7)"
+  boundingObject USE trans
+  physics Physics {
+  }
+}
+DEF base Solid {
+  translation 0 4.05 3
+  children [
+    DEF cuerpoobase Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0
+        transparency 1
+      }
+      geometry Box {
+        size 5.5 6 6
+      }
+    }
+  ]
+  name "solid(8)"
+  boundingObject USE cuerpoobase
+  physics Physics {
+    mass 150
+  }
+}

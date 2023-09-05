@@ -1,0 +1,22 @@
+<?xml version='1.0' ?>
+<sdf version='1.6'>
+  <model name='Pelota'>
+    <static>false</static>
+    <link name='link'>
+      <collision name='collision'>
+        <geometry>
+          <mesh>
+            <uri>model://pelota/meshes/collision/pelota.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <uri>model://pelota/meshes/visual/pelota.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
